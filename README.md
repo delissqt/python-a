@@ -1,6 +1,14 @@
 
 Try exercise pretend to crea a api
 
+Setup
+I create virtual environment
+
+Install fast api
+````commandline
+$ pip install fastapi
+````
+
 
 Is import have installed **uvicorn** in order to run the program more details in [uvicorn.org](https://www.uvicorn.org/)
 
@@ -13,6 +21,7 @@ $ pip install uvicorn
 ````commandline
 $ uvicorn main:app --reload
 ````
+(for windows is necessary run the project as _python -m uvicorn main:app --reload_)
 
 output
 ````commandline
